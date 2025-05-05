@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+body {
+  background-image: url('/img_dbms_pj.jpg');
+  background-size: cover; /* Cover the entire screen */
+  background-position: center;
+  background-attachment: fixed; /* Makes the background stay still when scrolling */
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6); /* Adds slight dark overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 50%;
+}
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
